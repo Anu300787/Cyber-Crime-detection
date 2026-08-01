@@ -1,0 +1,100 @@
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# ==========================
+# Jupyter
+# ==========================
+.ipynb_checkpoints/
+
+# ==========================
+# VS Code
+# ==========================
+.vscode/
+
+# ==========================
+# PyCharm
+# ==========================
+.idea/
+
+# ==========================
+# OS Files
+# ==========================
+.DS_Store
+Thumbs.db
+
+# ==========================
+# Python Packaging
+# ==========================
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ==========================
+# Logs
+# ==========================
+logs/
+*.log
+
+# ==========================
+# Environment Variables
+# ==========================
+.env
+
+# ==========================
+# Dataset
+# ==========================
+dataset/
+data/
+*.csv
+*.zip
+*.pcap
+*.pcapng
+
+# Keep folder structure
+!dataset/.gitkeep
+
+# ==========================
+# Trained Models
+# ==========================
+models/
+*.pth
+*.pt
+*.pkl
+*.joblib
+*.ckpt
+
+# Keep folder structure
+!models/.gitkeep
+
+# ==========================
+# Outputs
+# ==========================
+outputs/
+predictions/
+results/
+plots/
+
+# Keep folder structure
+!outputs/.gitkeep
+
+# ==========================
+# Streamlit Cache
+# ==========================
+.streamlit/secrets.toml
+
+# ==========================
+# Temporary Files
+# ==========================
+*.tmp
+*.temp
